@@ -1,0 +1,49 @@
+body{
+    background: url('./pic.webp');
+    color: white;
+    font-family: monospace;
+}
+.main{
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 55%;
+    width: 80%; 
+    max-width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.form{
+    border: 1px solid rgb(65, 63, 63);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form label{
+    display: flex;
+}
+.form input{
+    width: 99%;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+button{
+    margin-top: 5px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    padding: 5px 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-size: 13px;
+}
+button:hover{
+    background: white;
+    color: black;
+}
