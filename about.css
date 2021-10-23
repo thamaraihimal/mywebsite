@@ -4,7 +4,7 @@
 
 }
 body{
-    background-image: url('../register/register.webp');
+    background-image: url('./pic.webp');
     color: white;
     font-family: monospace;
     font-size: 15px;
