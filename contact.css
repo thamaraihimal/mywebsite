@@ -4,6 +4,7 @@
 }
 body{
     background: url('./pic.webp');
+    font-family: monospace;
 }
 .main{
     position: absolute;
@@ -31,7 +32,7 @@ body{
 }
 .form label{
     display: flex;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 17px;
 }
 .form input, .form textarea{
