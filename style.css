@@ -1,0 +1,42 @@
+body{
+    background-image: url('./pic.webp');
+
+}
+img{
+    border-radius: 500px;
+    height: 80px;
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.navbar{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navbar > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px white solid;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.navbar > ul > li > a:hover{
+    background-color: white;
+    color: black;
+}
+.love{
+    color: white;
+    position: absolute;
+    left: 27%;
+    top: 35%;
+    font-size: 60px;
+    border-bottom: white 1px solid;
+}
