@@ -1,0 +1,54 @@
+body{ 
+    background-image: url('./register.webp');
+
+}
+
+
+
+.main{
+     background-color: black;
+     color: white;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     max-width: 600px;
+     width: 80%;
+     height: 70%;
+     border-radius: 30px;
+    font-family: monospace;
+    opacity: 0.9;
+ }
+ .detiles{
+    border: 1px solid white;
+    margin: 25px;
+    padding: 10px;
+}
+ label{
+    display: flex;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+input{
+    width: 100%;
+    color:white;
+    background:none;
+    outline: none;
+    border:none;
+    font-size:15px;
+}
+button{
+    border: 1px solid white;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color:white;
+    color: black;
+}
