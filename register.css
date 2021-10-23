@@ -1,10 +1,6 @@
 body{ 
     background-image: url('./pic.webp');
-
 }
-
-
-
 .main{
      background-color: black;
      color: white;
@@ -22,7 +18,7 @@ body{
  }
  .detiles{
     border: 1px solid white;
-    border-radius:20px;
+   border-radius: 10px;
     margin: 25px;
     padding: 10px;
 }
