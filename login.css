@@ -24,6 +24,7 @@ body{
 }
 .form label{
     display: flex;
+    font-size:18px;
 }
 .form input{
     width: 99%;
@@ -31,6 +32,7 @@ body{
     background: none;
     outline: none;
     color: white;
+    font-size:15px;
 }
 button{
     margin-top: 5px;
