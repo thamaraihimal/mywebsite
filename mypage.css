@@ -1,16 +1,11 @@
 body{
-    background-image: url('./pic.webp');
+    background-image: url("../pic.webp");
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: monospace;
-    font-size: 15px;
-}
-h1{
-    color: white;   
-}
-p{
-    margin-bottom: 30px;
-     padding: 0px 20px;
-    color:white;
 }
 .Navigation{
     font-family: sans-serif;

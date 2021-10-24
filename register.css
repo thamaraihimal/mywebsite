@@ -1,5 +1,7 @@
 body{ 
     background-image: url('./pic.webp');
+    font-family: monospace;
+
 }
 .main{
      background-color: black;
@@ -18,7 +20,6 @@ body{
  }
  .detiles{
     border: 1px solid white;
-   border-radius: 10px;
     margin: 25px;
     padding: 10px;
 }
@@ -47,5 +48,40 @@ button{
 }
 button:hover{
     background-color:white;
+    color: black;
+}
+.Navigation{
+    font-family: sans-serif;
+    border-bottom: 1px solid rgb(207, 201, 201);
+    
+}
+.image{
+    border-radius: 500px;
+    height: 80px;
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.navbar{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navbar > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px white solid;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.navbar > ul > li > a:hover{
+    background-color: white;
     color: black;
 }
